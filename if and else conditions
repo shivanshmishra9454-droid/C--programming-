@@ -1,0 +1,43 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int age, marks;
+    
+    printf("Enter Your age ");
+    scanf("%d",& age);
+    
+    printf("Enter your marks");
+    scanf("%d", & marks);
+    
+    printf("your age is %d\n", age);
+    printf("your marks are%d\n", marks);
+    
+    if(marks>=50)
+    {
+      printf("You are passed in hindi subject ");
+    }   
+    
+    else
+     {
+       printf("You are failed in hindi subject" );
+    
+     }
+
+       return 0;   
+    
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
