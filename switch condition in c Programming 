@@ -1,0 +1,30 @@
+#include  <stdio.h>
+
+  int main()
+  {
+   
+    int age;
+    printf("Enter the your age\n");
+    scanf("%d",& age);
+    
+    switch(age)
+    {
+      case 3:
+      printf("The age in 3");
+       break;
+    
+      case 10:
+      printf(" The age in 10");
+      break;
+    
+      case 18:
+      printf("The age in 18");
+      break;
+      default:
+    
+      printf("age is not 3,10&18");
+    }  
+    return 0;
+    
+  }  
+    
